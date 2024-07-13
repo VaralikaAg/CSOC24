@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(173, 204, 231);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto 40px auto;
+    padding: 20px 20px;
+}
+
+.content{
+    font-size: 30px;
+    padding: 2px;
+    padding-top: 10px;
+}
+.hint{
+    padding-bottom: 20px;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+.login{
+    text-align: center;
+    padding: 40px 40px 10px 40px;
+    font-size: 30px;
+}
+
+.submit {
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.result{
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.home-class{
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 10px 0 0;
+    display: block;
+    margin: 0 auto;
+}
+.home{
+    color: black;
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.home:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/task1.css') }}">
+</head>
+<body>
+    <h2>TASK 1 : SQL Injection</h2>
+    <div class="container">
+        <div class="content">
+            Try to log in as the admin using the form below.
+        </div>
+        <div class="hint">
+            Hint: Use a SQL injection technique.
+        </div>
+        <div class="login">
+            <form action="./task1" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required> <br> <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required> <br> <br>
+                <button type="submit" class="submit">LOGIN</button>
+            </form>
+            <div class="result red">Invalid username or password, try again.</div>
+        </div>
+    </div>
+    <div class="home-class">
+        <a href="/">
+            <button class="home">
+                HOME
+            </button>
+        </a>
+    </div>
+</body>
+</html>
